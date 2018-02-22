@@ -7,7 +7,7 @@ var userFavoriteSeasonInput ;
 var userFavoriteHolidayInput ;
 var userFavoriteFunActivity ;
 var userFavoriteAnimal ;
-var userPreferredplacetolive
+var userPreferredPlaceToLive ;
 var numberOfSelected_A_Counter = 0;
 var numberOfSelected_B_Counter = 0;
 var numberOfSelected_C_Counter = 0;
