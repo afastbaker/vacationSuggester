@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#vacationForm").submit(function(event){
+  $("#mainForm").submit(function(event){
     event.preventDefault();
 
 var userAgeInput ;
@@ -60,3 +60,17 @@ if (userAgeInput === "a"){
     } else if (userFavoritePreferredPlaceToLiveInput === "c") {
       numberOfSelected_C_Counter += 1;
     }
+  })
+
+  })
+  $("#extraFormForEquivalentAnswers").submit(function(event){
+    event.preventDefault();
+    userExtraQuestionInput = $("#extraQuestion").val();
+    if (userExtraQuestionInput === "fastfood"){
+      $("#answerDisneyland").show();
+    } else if (userExtraQuestionInput === "frenchbread") {
+      $("#answerParis").show();
+    } else if (userExtraQuestionInput === "seafood") {
+      $("#answerIreland").show();
+    }
+  })

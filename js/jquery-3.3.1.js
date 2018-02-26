@@ -1,6 +1,3 @@
-10367 lines (8414 sloc)  265 KB
-
-
 /*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
