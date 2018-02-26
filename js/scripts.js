@@ -60,9 +60,18 @@ if (userAgeInput === "a"){
     } else if (userFavoritePreferredPlaceToLiveInput === "c") {
       numberOfSelected_C_Counter += 1;
     }
+
+    if (numberOfSelected_A_Counter > numberOfSelected_B_Counter && numberOfSelected_A_Counter > numberOfSelected_C_Counter) {
+    $("#answerDisneyland, #openingAnswerMessage").show();
+  } else if (numberOfSelected_B_Counter > numberOfSelected_A_Counter && numberOfSelected_B_Counter > numberOfSelected_C_Counter) {
+    $("#answerParis, #openingAnswerMessage").show();
+  } else if (numberOfSelected_C_Counter > numberOfSelected_A_Counter && numberOfSelected_C_Counter > numberOfSelected_B_Counter) {
+    $("#answerIreland, #openingAnswerMessage").show();
+  } else if (numberOfSelected_A_Counter === numberOfSelected_B_Counter || numberOfSelected_A_Counter === numberOfSelected_C_Counter || numberOfSelected_B_Counter === numberOfSelected_C_Counter) {
+    $("#extraFormForEquivalentAnswers").show();
+    }
   })
 
-  })
   $("#extraFormForEquivalentAnswers").submit(function(event){
     event.preventDefault();
     userExtraQuestionInput = $("#extraQuestion").val();
@@ -74,3 +83,4 @@ if (userAgeInput === "a"){
       $("#answerIreland").show();
     }
   })
+})
