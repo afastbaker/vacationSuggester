@@ -1,3 +1,7 @@
 .question {
   font-weight: bold;
 }
+
+#placeThatUserShouldVisit div , #extraFormForEquivalentAnswers {
+  display: none;
+}

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#mainForm").submit(function(event){
+  $("#vacationForm").submit(function(event){
     event.preventDefault();
 
 var userAgeInput ;

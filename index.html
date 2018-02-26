@@ -10,7 +10,7 @@
    <body>
       <div class="container">
          <h1 class="text-primary">Vacation Suggester</h1>
-         <form id="mainForm"">
+         <form id="vacationForm"">
             <div class="form-group">
                <label for="userName">Name</label>
                <input type="text" class="form-control" id="userName"placeholder="Insert your name here>"
@@ -22,25 +22,25 @@
                <option value="c">C - I'm older than 30</option>
             </select>
             <p class="question">What is your favorite holiday?</p>
-            <select class="form-control" id="userFavoriteCountry">
+            <select class="form-control" id="userFavoriteHoliday">
                <option value="a">A - Halloween </option>
                <option value="b">B - Christmas </option>
                <option value="c">C - St Patrick's Day</option>
             </select>
             <p class="question">What is your favorite FUN activity?</p>
-            <select class="form-control" id="userFavoriteIceCreamFlavor">
+            <select class="form-control" id="userFavoriteFunActivity">
                <option value="a">A - Relax By Pool</option>
                <option value="b">B - Go Shopping</option>
-               <option value="c">C - Go to fancy restaurant</option>
+               <option value="c">C - Go Hiking in the countryside</option>
             </select>
             <p class="question">What is your favorite pet?</p>
             <select class="form-control" id="userFavoritePet">
                <option value="a">A - Cat</option>
                <option value="b">B - Dog</option>
-               <option value="c">C - Lizard</option>
+               <option value="c">C - Rabbit</option>
             </select>
             <p class="question">What is your Preferred Place to Live?</p>
-            <select class="form-control" id="userFavoriteSport">
+            <select class="form-control" id="userPreferredPlaceToLive">
                <option value="a">A - Beach</option>
                <option value="b">B - City</option>
                <option value="c">C - Mountains</option>
@@ -57,14 +57,14 @@
             <select class="form-control" id="extraQuestion">
                <option value="fastfood">Fast Food</option>
                <option value="frenchbread">French Bread</option>
-               <option value="Seafood">Seafood</option>
+               <option value="seafood">Seafood</option>
             </select>
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
             <br>
             <br>
          </form>
-         <div id="placeThatTheUserShouldVisit">
+         <div id="placeThatUserShouldVisit">
             <div id="openingAnswerMessage">
                <br>
                <p>Hi <span class="userNameOutput"></span>,</p>
@@ -77,9 +77,9 @@
                <p>You have selected mainly B's</p>
                <p>You should visit Paris</p>
             </div>
-            <div id="answerIceland">
+            <div id="answerIreland">
                <p>You have selected mainly C's</p>
-               <p>You should visit Iceland</p>
+               <p>You should visit Ireland</p>
             </div>
          </div>
       </div>
