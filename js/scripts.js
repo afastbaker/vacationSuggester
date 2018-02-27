@@ -47,9 +47,9 @@ if (userAgeInput === "a"){
 
     if (userFavoriteFunActivityInput === "a"){
       numberOfSelected_A_Counter += 1;
-    } else if (userFavoriteIceCreamFlavorInput === "b") {
+    } else if (userFavoriteFunActivityInput === "b") {
       numberOfSelected_B_Counter += 1;
-    } else if (userFavoriteIceCreamFlavorInput === "c") {
+    } else if (userFavoriteFunActivityInput === "c") {
       numberOfSelected_C_Counter += 1;
     }
 

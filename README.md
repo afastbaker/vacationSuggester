@@ -20,7 +20,7 @@ http://afastbaker.github.io/vacationSuggester/
 
 ## Known Bugs
 
-_No known bugs_
+_Not outputting answer based on filling out forms or equivalents_
 
 ## Support and contact details
 
